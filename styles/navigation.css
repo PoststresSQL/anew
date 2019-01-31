@@ -1,0 +1,17 @@
+header {
+    padding: 1rem 0 0.5rem 0;
+}
+
+header nav {
+    border-bottom: #446b91 solid 2px;
+}
+
+header nav li a {
+    color: #446b91;
+    padding: 0.7em !important;
+}
+
+header nav ul.align-right li a {
+    padding: 0.7em 0.2em 0.7em 0.5em !important;
+}
+
