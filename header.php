@@ -7,27 +7,29 @@
         <header>
             <div class="grid-container grid-x">
                 <div class="large-2">
-                    <img src="wp-content/uploads/2019/01/anew-logo-final.png" />
+                    <a href="/">
+                        <img src="<?php echo get_template_directory_uri() . '/../../uploads/2019/01/anew-logo-final.png' ?>" />
+                    </a>
                 </div>
                 <nav class="large-10 grid-x">
                     <ul class="large-9 menu medium-horizontal">
                         <li>
-                            <a href="/get-started" target="_blank" rel="noopener noreferrer">
+                            <a href="/get-started">
                                 Get Started
                             </a>
                         </li>
                         <li>
-                            <a href="/faq" target="_blank" rel="noopener noreferrer">
+                            <a href="/faq">
                                 FAQ
                             </a>
                         </li>
                         <li>
-                            <a href="/blog" target="_blank" rel="noopener noreferrer">
+                            <a href="/blog">
                                 Blog
                             </a>
                         </li>
                         <li>
-                            <a href="/about-us" target="_blank" rel="noopener noreferrer">
+                            <a href="/about-us">
                                 About Us
                             </a>
                         </li>
