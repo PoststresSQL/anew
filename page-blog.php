@@ -20,9 +20,15 @@
                     // start the loop
                     while($all_posts -> have_posts()) :
                         $all_posts -> the_post();
+                        $post_id = get_the_ID();
+                        $category_object = get_the_category($post_id);
+                        $category_name = $category_object[0] -> name;
             ?>
                 <li>
                     <a href="<?php echo the_permalink(); ?>">
+                        <h6>
+                            <?php echo $category_name; ?>
+                        </h6>
                         <h4>
                             <?php the_title(); ?>
                         </h4>
