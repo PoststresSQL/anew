@@ -49,7 +49,7 @@
                     What People Are Saying
                 </h2>
                 <div class="orbit" role="region" aria-label="Testimonials" data-orbit>
-                    <ul class="orbit-container" style="height: 300px;">
+                    <ul class="orbit-container" style="height: 150px;">
                         <li class="orbit-slide is-active">
                             <div>
                                 <blockquote>
@@ -92,13 +92,14 @@
 
                         $featured_posts = get_posts($args);
                         foreach ($featured_posts as $featured_post) {
+                            $post_excerpt = substr($featured_post -> post_content, 0, 204);
                     ?>
                     <div class="cell large-6">
                         <h3>
                             <?php echo $featured_post -> post_title; ?>
                         </h3>
                         <p>
-                            <?php var_dump($featured_post); ?>
+                            <?php echo $post_excerpt; ?>...
                             <a href="<?php echo the_permalink(); ?>">Read More</a>
                         </p>
                     </div>
