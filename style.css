@@ -7,3 +7,18 @@
 body {
     margin: 0 !important;
 }
+
+.button {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    min-height: 50px;
+    min-width: 164px;
+    padding: 1rem 0.75rem;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(224, 99, 81);
+}

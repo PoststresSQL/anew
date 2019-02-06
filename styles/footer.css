@@ -1,0 +1,16 @@
+footer {
+    background: rgb(224, 99, 81);
+    color: rgb(255, 255, 255);
+}
+
+footer ul li a {
+    text-decoration: underline !important;
+}
+
+footer a, footer h6 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    text-transform: uppercase;
+}
