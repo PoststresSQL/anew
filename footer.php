@@ -1,9 +1,9 @@
         <footer>
-            <section class="grid-container">
+            <section class="grid-container text-center">
                 <h2>
                     Get beyond the struggle and live a life worth living.
                 </h2>
-                <a href="#">
+                <a href="#" class="button">
                     Start Today
                 </a>
                 <hr>
