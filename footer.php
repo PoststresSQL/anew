@@ -7,23 +7,25 @@
                     Start Today
                 </a>
                 <hr>
-                <ul class="menu">
-                    <li>
-                        <a href="#">
-                            Privacy Policy
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Terms &amp; Conditions
-                        </a>
-                    </li>
-                    <li>
-                        <h6>
-                            Anew &copy; 2018, All Rights Reserved.
-                        </h6>
-                    </li>
-                </ul>
+                <div>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Terms &amp; Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <h6>
+                                Anew &copy; 2018, All Rights Reserved.
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </footer>
     </body>

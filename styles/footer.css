@@ -1,6 +1,15 @@
 footer {
     background: rgb(224, 99, 81);
     color: rgb(255, 255, 255);
+    padding: 3rem 0 1rem 0;
+}
+
+footer hr {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+footer ul.menu, footer ul li {
+    display: inline-block;
 }
 
 footer ul li a {
