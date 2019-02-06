@@ -1,8 +1,8 @@
 <?php
-
     get_header();
 ?>
     <main>
+
         <section class="grid-container">
             <h1>
                 We are here to encourage &amp; challenge people
@@ -14,6 +14,7 @@
                 Get Started
             </a>
         </section>
+
         <section class="grid-container ">
             <!-- approx 1074x816 pixels grid -->
             <div>
@@ -41,37 +42,73 @@
                 </p>
             </div>
         </section>
-        <section class="grid-container">
-            <h2>
-                What Are People Saying?
-            </h2>
-            <blockquote>
-                I didn't really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivation when it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work. <a href="#">Read More</a>
-            </blockquote>
-        </section>
-        <section class="grid-container">
-            <h2>
-                The Blogs
-            </h2>
-            <div>
-                <div>
-                    <h3>
-                        At The End of My Rope
-                    </h3>
-                    <p>
-                        I remember thinking that I didn't want to live anymore. The year was 2010 and I had just had it. I was drinking too much and I couldn't quit. I am sure 1 or 2 people had their... <a href="#">Read More</a>
-                    </p>
-                </div>
-                <div>
-                    <h3>
-                        At The End of My Rope
-                    </h3>
-                    <p>
-                        I remember thinking that I didn't want to live anymore. The year was 2010 and I had just had it. I was drinking too much and I couldn't quit. I am sure 1 or 2 people had their... <a href="#">Read More</a>
-                    </p>
+
+        <section id="testimonials">
+            <div class="grid-container">
+                <h2>
+                    What People Are Saying
+                </h2>
+                <div class="orbit" role="region" aria-label="Testimonials" data-orbit>
+                    <ul class="orbit-container" style="height: 300px;">
+                        <li class="orbit-slide is-active">
+                            <div>
+                                <blockquote>
+                                    I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work.
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li class="orbit-slide">
+                            <div>
+                                <blockquote>
+                                    I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work.
+                                </blockquote>
+                            </div>
+                        </li>
+                        <!-- More slides... -->
+                    </ul>
+                    <nav class="orbit-bullets">
+                        <button class="is-active" data-slide="0">
+                            <span class="show-for-sr">First slide details.</span>
+                            <span class="show-for-sr">Current Slide</span>
+                        </button>
+                        <button class data-slide="1">
+                            <span class="show-for-sr">Second slide details.</span>
+                        </button>
+                    </nav>
                 </div>
             </div>
         </section>
+
+        <section id="featured-posts">
+            <div class="grid-container">
+                <h2>
+                    The Blog
+                </h2>
+                <div class="grid-x">
+                    <?php
+                        $args = array(
+                            'numberposts' => 2
+                        );
+
+                        $featured_posts = get_posts($args);
+                        foreach ($featured_posts as $featured_post) {
+                    ?>
+                    <div class="cell large-6">
+                        <h3>
+                            <?php echo $featured_post -> post_title; ?>
+                        </h3>
+                        <p>
+                            <?php var_dump($featured_post); ?>
+                            <a href="<?php echo the_permalink(); ?>">Read More</a>
+                        </p>
+                    </div>
+                    <?php
+                        }
+                    ?>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 <?php    
