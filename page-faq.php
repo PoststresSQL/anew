@@ -2,18 +2,20 @@
     get_header();
 ?>
 
-<main class="grid-container">
+<main>
     <section>
-        <h2>
-            <?php the_title(); ?>
-        </h2>
-        <?php
-            while ( have_posts() ) : the_post(); 
-                the_content();
-            endwhile; 
-        ?>
+        <div class="grid-container">
+            <h2>
+                <?php the_title(); ?>
+            </h2>
+            <?php
+                while ( have_posts() ) : the_post(); 
+                    the_content();
+                endwhile; 
+            ?>
+        </div>
     </section>
-
+    
     <section id="featured-posts">
         <div class="grid-container">
             <h2>
@@ -43,6 +45,7 @@
             </div>
         </div>
     </section>
+
 </main>
 
 <?php
