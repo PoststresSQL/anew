@@ -3,58 +3,61 @@
 ?>
     <main>
 
-        <section class="grid-container"
-                 id="banner-container">
-            <h1 id="banner-title">
-                We are here<br>
-                to encourage<br> 
-                &amp; challenge people
-            </h1>
-            <h3 id="banner-subtitle">
-                to live their best, most consistent, most sustainable life yet
-            </h3>
-            <a href="#"
-               class="button primary">
-                Get Started
-            </a>
+        <section id="banner-container">
+            <div class="grid-container">
+                <h1 id="banner-title">
+                    We are here<br>
+                    to encourage<br> 
+                    &amp; challenge people
+                </h1>
+                <h3 id="banner-subtitle">
+                    to live their best, most consistent, most sustainable life yet
+                </h3>
+                <a href="#"
+                class="button primary">
+                    Get Started
+                </a>
+            </div>
         </section>
 
-        <section class="grid-container grid"
-                 id="home_welcome-grid">
+        <section id="home_welcome-container">
             <!-- approx 1074x816 pixels grid -->
-            <div id="welcome_slogan-container">
-                <p>
-                    Welcome to Anew Accountibility and Lifestyle Coaching! Are you ready to start over? Get in shape? Eat better? Achieve the goals you’ve been waiting years to achieve? Change careers? Then you are at the right place. 
-                </p>
-            </div>
-            <div id="faq1-container">
-                <div class="grid-y">
-                    <div class="cell">
-                        <h3>
-                            FAQ
-                        </h3>
-                    </div>
-                    <div class="cell grid">
-                        <div class="vertical-center">
-                            <h5>
-                                How Do I Get Started?
-                            </h5>
-                            <p>
-                                <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
-                            </p>
+            <div class="grid-container grid"        
+                 id="home_welcome-grid">
+                <div id="welcome_slogan-container">
+                    <p>
+                        Welcome to Anew Accountibility and Lifestyle Coaching! Are you ready to start over? Get in shape? Eat better? Achieve the goals you’ve been waiting years to achieve? Change careers? Then you are at the right place. 
+                    </p>
+                </div>
+                <div id="faq1-container">
+                    <div class="grid-y">
+                        <div class="cell">
+                            <h3>
+                                FAQ
+                            </h3>
+                        </div>
+                        <div class="cell grid">
+                            <div class="vertical-center">
+                                <h5>
+                                    How Do I Get Started?
+                                </h5>
+                                <p>
+                                    <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="faq2-container"
-                 class="grid">
-                <div class="vertical-center">
-                    <h5>
-                        How Much Does It Cost?
-                    </h5>
-                    <p>
-                        We have multiple plans available for your needs and budget. <a href="#">See Plans</a>
-                    </p>
+                <div id="faq2-container"
+                    class="grid">
+                    <div class="vertical-center">
+                        <h5>
+                            How Much Does It Cost?
+                        </h5>
+                        <p>
+                            We have multiple plans available for your needs and budget. <a href="#">See Plans</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
