@@ -3,7 +3,8 @@
 ?>
     <main>
 
-        <section class="grid-container">
+        <section class="grid-container"
+                 id="banner-container">
             <h1 id="banner-title">
                 We are here<br>
                 to encourage<br> 
@@ -27,29 +28,34 @@
                 </p>
             </div>
             <div id="faq1-container">
-                <div class="grid-y" style="height: 100%;">
-                    <div class="cell" style="height: 50%;">
-                        <h4>
+                <div class="grid-y">
+                    <div class="cell">
+                        <h3>
                             FAQ
-                        </h4>
+                        </h3>
                     </div>
-                    <div class="cell" style="height: 50%;">
-                        <h5>
-                            How Do I Get Started?
-                        </h5>
-                        <p>
-                            <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
-                        </p>
+                    <div class="cell grid">
+                        <div class="vertical-center">
+                            <h5>
+                                How Do I Get Started?
+                            </h5>
+                            <p>
+                                <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="faq2-container">
-                <h5>
-                    How Much Does It Cost?
-                </h5>
-                <p>
-                    We have multiple plans available for your needs and budget. <a href="#">See Plans</a>
-                </p>
+            <div id="faq2-container"
+                 class="grid">
+                <div class="vertical-center">
+                    <h5>
+                        How Much Does It Cost?
+                    </h5>
+                    <p>
+                        We have multiple plans available for your needs and budget. <a href="#">See Plans</a>
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -94,7 +100,7 @@
                 <h2>
                     The Blog
                 </h2>
-                <div class="grid-x">
+                <div class="grid-x grid-padding-x">
                     <?php
                         $args = array(
                             'numberposts' => 2

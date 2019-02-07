@@ -1,3 +1,7 @@
+#banner-container {
+    padding: 4rem 0.9375rem 0 0.9375rem;
+}
+
 #banner-title {
     color: rgb(224, 99, 81);
     font-size: 5rem;
@@ -11,32 +15,58 @@
     color: rgb(224, 99, 81);
     font-size: 2rem;
     font-weight: 400;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 3rem 0;
 }
 
 #home_welcome-grid {
     color: rgb(255, 255, 255);
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(150px, auto);
+    grid-template-rows: 100px repeat(3, 204px);
     grid-template-areas: 
         ". . we we we"
         "f1 f1 we we we"
         "f1 f1 f2 f2 f2"
         "f1 f1 f2 f2 f2";
-    min-height: 816px;
-    max-width: 1074px;
+    /* max-width: 960px; */
     width: 100%;
+}
+
+#home_welcome-grid h3 {
+    font-weight: 700;
+}
+
+#home_welcome-grid h5 {
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
+
+#home_welcome-grid h5::after {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 1.2rem;
+    width: 2.5rem;
+}
+
+#home_welcome-grid p {
+    font-size: 24px;
+    line-height: 1.75;
+}
+
+#home_welcome-grid a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 #home_welcome-grid #welcome_slogan-container,
 #home_welcome-grid #faq1-container,
 #home_welcome-grid #faq2-container {
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 
 #home_welcome-grid #welcome_slogan-container {
-    color: rgb(0, 0, 0);
+    color: rgb(68, 107, 145);
     grid-area: we;
 }
 
@@ -45,7 +75,32 @@
     grid-area: f1;
 }
 
+#home_welcome-grid #faq1-container .grid-y {
+    height: 100%;
+}
+
+#home_welcome-grid #faq1-container .grid-y .cell:first-child {
+    height: 40%;
+}
+
+#home_welcome-grid #faq1-container .grid-y .cell:nth-child(2) {
+    height: 60%;
+}
+
+#home_welcome-grid #faq1-container h5::after {
+    background: rgb(158, 180, 200);
+}
+
 #home_welcome-grid #faq2-container {
     background: rgb(158, 180, 200);
     grid-area: f2;
+}
+
+#home_welcome-grid #faq2-container .vertical-center,
+#home_welcome-grid #faq1-container .cell:nth-child(2) .vertical-center {
+    align-self: center;
+}
+
+#home_welcome-grid #faq2-container h5::after {
+    background: rgb(68, 107, 145);
 }

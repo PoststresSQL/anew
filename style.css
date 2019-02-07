@@ -13,6 +13,10 @@ body {
     margin: 0 !important;
 }
 
+section {
+    padding: 3rem 0.9375rem;
+}
+
 .button {
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
