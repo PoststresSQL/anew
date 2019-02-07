@@ -1,3 +1,7 @@
+/*
+   BANNER STYLES
+*/
+
 #banner-container {
     background: rgba(158, 180, 200, 0.3);
     padding: 4rem 0.9375rem 0 0.9375rem;
@@ -18,6 +22,10 @@
     font-weight: 400;
     margin: 1.5rem 0 3rem 0;
 }
+
+/* 
+    FAQ GRID STYLES
+*/
 
 #home_welcome-container {
     position: relative;
@@ -70,7 +78,6 @@
 }
 
 #home_welcome-grid a {
-    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
@@ -119,4 +126,21 @@
 
 #home_welcome-grid #faq2-container h5::after {
     background: rgb(68, 107, 145);
+}
+
+/* 
+    TESTIMONIALS STYLES
+*/
+
+#testimonials h2 {
+    color: rgb(224, 99, 81);
+    font-weight: 700;
+}
+
+#testimonials blockquote {
+    border-left: none;
+    color: rgb(224, 99, 81);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
 }
