@@ -9,8 +9,17 @@
     font-family: 'Barlow Semi Condensed', sans-serif !important;
 }
 
+a {
+    color: inherit;
+}
+
 body {
     margin: 0 !important;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
 }
 
 section {
@@ -48,9 +57,20 @@ section {
     display: grid;
 }
 
-#featured-posts,
-#featured-posts a  {
+#featured-posts  {
     color: #446b91;
+}
+
+#featured-posts h2 {
+    font-weight: 700;
+}
+
+#featured-posts h4 {
+    font-weight: 700;
+}
+
+#featured-posts p {
+    font-weight: 600;
 }
 
 #featured-posts a {
