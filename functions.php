@@ -1,5 +1,5 @@
 <?php
-
+    // load necessary JS and CSS files for theme
     function anew_files() {
         // js loading
         wp_enqueue_script('jquery', get_template_directory_uri() . '/js/vendor/jquery.js');
@@ -18,5 +18,11 @@
     }
 
     add_action('wp_enqueue_scripts', 'anew_files');
+
+    // remove the WP header margin
+    function remove_admin_login_header() {
+        remove_action('wp_head', '_admin_bar_bump_cb');
+    }
+    add_action('get_header', 'remove_admin_login_header');
 
 ?>
