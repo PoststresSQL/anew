@@ -4,36 +4,46 @@
     <main>
 
         <section class="grid-container">
-            <h1>
-                We are here to encourage &amp; challenge people
+            <h1 id="banner-title">
+                We are here<br>
+                to encourage<br> 
+                &amp; challenge people
             </h1>
-            <h3>
-                To live their best, most consistent, most sustainable life yet
+            <h3 id="banner-subtitle">
+                to live their best, most consistent, most sustainable life yet
             </h3>
-            <a href="#">
+            <a href="#"
+               class="button primary">
                 Get Started
             </a>
         </section>
 
-        <section class="grid-container ">
+        <section class="grid-container grid"
+                 id="home_welcome-grid">
             <!-- approx 1074x816 pixels grid -->
-            <div>
+            <div id="welcome_slogan-container">
                 <p>
                     Welcome to Anew Accountibility and Lifestyle Coaching! Are you ready to start over? Get in shape? Eat better? Achieve the goals you’ve been waiting years to achieve? Change careers? Then you are at the right place. 
                 </p>
             </div>
-            <div>
-                <h4>
-                    FAQ
-                </h4>
-                <h5>
-                    How Do I Get Started?
-                </h5>
-                <p>
-                    <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
-                </p>
+            <div id="faq1-container">
+                <div class="grid-y" style="height: 100%;">
+                    <div class="cell" style="height: 50%;">
+                        <h4>
+                            FAQ
+                        </h4>
+                    </div>
+                    <div class="cell" style="height: 50%;">
+                        <h5>
+                            How Do I Get Started?
+                        </h5>
+                        <p>
+                            <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div>
+            <div id="faq2-container">
                 <h5>
                     How Much Does It Cost?
                 </h5>
