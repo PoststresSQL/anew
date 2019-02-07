@@ -36,22 +36,22 @@
                     </ul>
                     <ul class="large-3 menu medium-horizontal align-right">
                         <li>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-facebook-square fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-instagram fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-twitter-square fa-lg"></i>
                             </a>
                         </li>
