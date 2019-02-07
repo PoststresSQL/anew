@@ -40,6 +40,10 @@ section {
     text-transform: uppercase;
 }
 
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+
 .grid {
     display: grid;
 }
