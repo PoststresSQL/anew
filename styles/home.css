@@ -1,0 +1,51 @@
+#banner-title {
+    color: rgb(224, 99, 81);
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.25rem;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+#banner-subtitle {
+    color: rgb(224, 99, 81);
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+#home_welcome-grid {
+    color: rgb(255, 255, 255);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(150px, auto);
+    grid-template-areas: 
+        ". . we we we"
+        "f1 f1 we we we"
+        "f1 f1 f2 f2 f2"
+        "f1 f1 f2 f2 f2";
+    min-height: 816px;
+    max-width: 1074px;
+    width: 100%;
+}
+
+#home_welcome-grid #welcome_slogan-container,
+#home_welcome-grid #faq1-container,
+#home_welcome-grid #faq2-container {
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+#home_welcome-grid #welcome_slogan-container {
+    color: rgb(0, 0, 0);
+    grid-area: we;
+}
+
+#home_welcome-grid #faq1-container {
+    background: rgb(68, 107, 145);
+    grid-area: f1;
+}
+
+#home_welcome-grid #faq2-container {
+    background: rgb(158, 180, 200);
+    grid-area: f2;
+}
