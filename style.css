@@ -4,6 +4,11 @@
     Version: 1.0.0
 */
 
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+
 body {
     margin: 0 !important;
 }
@@ -21,4 +26,25 @@ body {
 .button:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(224, 99, 81);
+}
+
+.button.primary {
+    background: transparent;
+    border: 2px solid #446b91;
+    color: #446b91;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.grid {
+    display: grid;
+}
+
+#featured-posts,
+#featured-posts a  {
+    color: #446b91;
+}
+
+#featured-posts a {
+    text-decoration: underline;
 }
