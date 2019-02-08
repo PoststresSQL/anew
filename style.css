@@ -23,6 +23,7 @@ p {
     margin-bottom: 2rem;
 }
 
+aside,
 section {
     padding: 3rem 0.9375rem;
 }
@@ -58,6 +59,10 @@ section {
     display: grid;
 }
 
+.grid-container {
+    max-width: 1100px;
+}
+
 .page-title {
     color: rgb(224, 99, 81);
     font-size: 55px;
@@ -68,6 +73,10 @@ section {
 .page-title__section {
     background: rgba(158, 180, 200, 0.3);
     padding-bottom: 0;
+}
+
+.post__image-container {
+    background: rgb(35, 35, 35);
 }
 
 #featured-posts  {
