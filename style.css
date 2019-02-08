@@ -19,7 +19,8 @@ body {
 
 p {
     font-size: 20px;
-    line-height: 1.6;
+    line-height: 1.8;
+    margin-bottom: 2rem;
 }
 
 section {
@@ -43,8 +44,8 @@ section {
 
 .button.primary {
     background: transparent;
-    border: 2px solid #446b91;
-    color: #446b91;
+    border: 2px solid rgb(68, 107, 145);
+    color: rgb(68, 107, 145);
     font-size: 1.4rem;
     text-transform: uppercase;
 }
@@ -57,8 +58,20 @@ section {
     display: grid;
 }
 
+.page-title {
+    color: rgb(224, 99, 81);
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.page-title__section {
+    background: rgba(158, 180, 200, 0.3);
+    padding-bottom: 0;
+}
+
 #featured-posts  {
-    color: #446b91;
+    color: rgb(68, 107, 145);
 }
 
 #featured-posts h2 {
