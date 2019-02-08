@@ -67,34 +67,7 @@
                 <h2>
                     What People Are Saying
                 </h2>
-                <div class="orbit" role="region" aria-label="Testimonials" data-orbit>
-                    <ul class="orbit-container" style="height: 150px;">
-                        <li class="orbit-slide is-active">
-                            <div>
-                                <blockquote>
-                                    I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work.
-                                </blockquote>
-                            </div>
-                        </li>
-                        <li class="orbit-slide">
-                            <div>
-                                <blockquote>
-                                    I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work.
-                                </blockquote>
-                            </div>
-                        </li>
-                        <!-- More slides... -->
-                    </ul>
-                    <nav class="orbit-bullets">
-                        <button class="is-active" data-slide="0">
-                            <span class="show-for-sr">First slide details.</span>
-                            <span class="show-for-sr">Current Slide</span>
-                        </button>
-                        <button class data-slide="1">
-                            <span class="show-for-sr">Second slide details.</span>
-                        </button>
-                    </nav>
-                </div>
+                <!-- @TODO Get Testimonials up -->
             </div>
         </section>
 
