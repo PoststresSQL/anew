@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-    <main>
+    <main id="home-page">
 
         <section id="banner-container">
             <div class="grid-container">
