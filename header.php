@@ -6,12 +6,12 @@
     <body>
         <header>
             <div class="grid-container grid-x">
-                <div class="large-2">
+                <div class="cell large-2">
                     <a href="/">
                         <img src="<?php echo get_template_directory_uri() . '/../../uploads/2019/01/anew-logo-final.png' ?>" />
                     </a>
                 </div>
-                <nav class="large-10 grid-x">
+                <nav class="cell large-10 grid-x">
                     <ul class="large-9 menu medium-horizontal">
                         <li>
                             <a href="/get-started">
