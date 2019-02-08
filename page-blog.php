@@ -35,13 +35,14 @@
                     <li class="cell large-6">
                         <a href="<?php echo the_permalink(); ?> ">
                             <?php the_post_thumbnail(); ?>
-                            <h5>
+                            <h5 class="post__category">
                                 <?php echo $category_name; ?>
                             </h5>
-                            <h4>
+                            <h4 class="post__title">
                                 <?php the_title(); ?>
                             </h4>
-                            <a href="<?php echo the_permalink(); ?> ">
+                            <a href="<?php echo the_permalink(); ?> "
+                               class="post__link">
                                 Read More
                             </a>
                         </a>

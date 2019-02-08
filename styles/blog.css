@@ -1,0 +1,14 @@
+#blog-page .post__category {
+    line-height: 1.2;
+    margin: 1rem 0 0 0;
+}
+
+#blog-page .post__title {
+    line-height: 1.2;
+    margin: 0;
+}
+
+#blog-page .post__link {
+    color: rgb(224, 99, 81);
+    text-decoration: underline;
+}
