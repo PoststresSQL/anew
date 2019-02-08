@@ -12,3 +12,27 @@
     color: rgb(224, 99, 81);
     text-decoration: underline;
 }
+
+/* 
+    SINGLE POST STYLES
+*/
+
+#single-page .post__category {
+    margin: 1rem 0;
+}
+
+#single-page #categories-list {
+    position: relative;
+}
+
+#single-page #categories-list .categories-list__container {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    width: auto;
+}
+
+#single-page #categories-list .categories-list__container h5 {
+    text-decoration: underline;
+}
