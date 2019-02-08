@@ -28,6 +28,11 @@ section {
     padding: 3rem 0.9375rem;
 }
 
+.background-orange {
+    background: rgb(224, 99, 81);
+    color: rgb(255, 255, 255);
+}
+
 .button {
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
@@ -67,6 +72,7 @@ section {
     color: rgb(224, 99, 81);
     font-size: 55px;
     font-weight: 900;
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 

@@ -12,6 +12,7 @@
         wp_enqueue_style('navigation_styles', get_template_directory_uri() . '/styles/navigation.css');
         wp_enqueue_style('home_styles', get_template_directory_uri() . '/styles/home.css');
         wp_enqueue_style('blog_styles', get_template_directory_uri() . '/styles/blog.css');
+        wp_enqueue_style('faq_styles', get_template_directory_uri() . '/styles/faq.css');
         wp_enqueue_style('footer_styles', get_template_directory_uri() . '/styles/footer.css');
         wp_enqueue_style('fontawesome_icons', '//use.fontawesome.com/releases/v5.7.0/css/all.css');
         wp_enqueue_style('motion_ui', '//cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css');
