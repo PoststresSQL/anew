@@ -2,12 +2,17 @@
     get_header();
 ?>
 
-<main>
-    <section>
+<main id="FAQ-page">
+    <section class="page-title__section">
         <div class="grid-container">
-            <h2>
+            <h2 class="page-title">
                 <?php the_title(); ?>
             </h2>
+        </div>
+    </section>
+
+    <section id="FAQ__section">
+        <div class="grid-container">
             <?php
                 while ( have_posts() ) : the_post(); 
                     the_content();
