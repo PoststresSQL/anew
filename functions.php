@@ -25,4 +25,8 @@
     }
     add_action('get_header', 'remove_admin_login_header');
 
+    // allow featured images for posts
+    add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 'auto', 400);
+
 ?>
