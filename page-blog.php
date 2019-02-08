@@ -3,13 +3,13 @@
 ?>
 
 <main id="blog-page">
-    <section class="page-title__section">
+    <!-- <section class="page-title__section">
         <div class="grid-container no-padding-bottom">
             <h2 class="page-title">
                 <?php the_title(); ?>
             </h2>
         </div>
-    </section>
+    </section> -->
     <section>
         <div class="grid-container">
                 <ul class="grid-x grid-padding-x no-bullet">
