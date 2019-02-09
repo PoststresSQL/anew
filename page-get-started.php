@@ -88,6 +88,7 @@
                     $featured_posts = get_posts($args);
                     foreach ($featured_posts as $featured_post) {
                         $post_excerpt = substr($featured_post -> post_content, 0, 204);
+                        $post_link = get_permalink($featured_post -> ID);
                 ?>
                 <div class="cell large-6">
                     <h4>
@@ -95,7 +96,7 @@
                     </h4>
                     <p>
                         <?php echo $post_excerpt, '...'; ?>
-                        <a href="<?php echo the_permalink(); ?>">Read More</a>
+                        <a href="<?php echo $post_link; ?>">Read More</a>
                     </p>
                 </div>
                 <?php
