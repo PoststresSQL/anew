@@ -8,7 +8,7 @@
             <div class="grid-container grid-x">
                 <div class="cell large-2">
                     <a href="/">
-                        <img src="<?php echo get_template_directory_uri() . '/../../uploads/2019/01/anew-logo-final.png' ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/../../uploads/2019/01/anew-logo-final.png' ?>" class="nav-logo" />
                     </a>
                 </div>
                 <nav class="cell large-10 grid-x">

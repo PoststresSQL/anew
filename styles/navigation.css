@@ -7,6 +7,14 @@ header nav {
     border-bottom: #446b91 solid 2px;
 }
 
+header div.cell.large-2 {
+    padding-top: 10px;
+}
+
+header .nav-logo {
+    height: 26px;
+}
+
 header nav li a {
     color: #446b91;
     font-size: 18px;
