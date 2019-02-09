@@ -59,12 +59,12 @@
     font-weight: 700;
 }
 
-#home_welcome-grid h5 {
+#home_welcome-grid h4 {
     font-weight: 600;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
 }
 
-#home_welcome-grid h5::after {
+#home_welcome-grid h4::after {
     content: '';
     display: block;
     height: 4px;
@@ -110,7 +110,7 @@
     height: 60%;
 }
 
-#home_welcome-grid #faq1-container h5::after {
+#home_welcome-grid #faq1-container h4::after {
     background: rgb(158, 180, 200);
 }
 
@@ -124,7 +124,7 @@
     align-self: center;
 }
 
-#home_welcome-grid #faq2-container h5::after {
+#home_welcome-grid #faq2-container h4::after {
     background: rgb(68, 107, 145);
 }
 
