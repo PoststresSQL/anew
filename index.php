@@ -13,7 +13,7 @@
                 <h3 id="banner-subtitle">
                     to live their best, most consistent, most sustainable life yet
                 </h3>
-                <a href="#"
+                <a href="/get-started/"
                 class="button primary">
                     Get Started
                 </a>
@@ -38,11 +38,11 @@
                         </div>
                         <div class="cell grid">
                             <div class="vertical-center">
-                                <h5>
+                                <h4>
                                     How Do I Get Started?
-                                </h5>
+                                </h4>
                                 <p>
-                                    <a href="#">Fill out the form</a> and we will be in touch through the email address you provided.
+                                    <a href="/get-started/">Fill out the form</a> and we will be in touch through the email address you provided.
                                 </p>
                             </div>
                         </div>
@@ -51,11 +51,11 @@
                 <div id="faq2-container"
                     class="grid">
                     <div class="vertical-center">
-                        <h5>
+                        <h4>
                             How Much Does It Cost?
                         </h5>
                         <p>
-                            We have multiple plans available for your needs and budget. <a href="#">See Plans</a>
+                            We have multiple plans available for your needs and budget. <a href="/faq/">See Plans</a>
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 </h2>
                 <!-- @TODO Get Testimonials up -->
                 <?php 
-                    echo do_shortcode('[testimonials_cycle theme="default_style" width="100%" count="-1" order_by="date" order="ASC" show_title="1" use_excerpt="0" show_thumbs="0" show_date="1" show_other="0" hide_view_more="0" output_schema_markup="0" testimonials_per_slide="1" transition="scrollHorz" timer="5000" pause_on_hover="true" auto_height="container" show_pager_icons="1" prev_next="1" display_pagers_above="0" paused="0"]');
+                    echo do_shortcode('[testimonial_view id="2"]');
                 ?>
             </div>
         </section>
@@ -87,6 +87,7 @@
                         $featured_posts = get_posts($args);
                         foreach ($featured_posts as $featured_post) {
                             $post_excerpt = substr($featured_post -> post_content, 0, 204);
+                            $post_link = get_permalink($featured_post -> ID);
                     ?>
                     <div class="cell large-6">
                         <h4>
@@ -94,7 +95,7 @@
                         </h4>
                         <p>
                             <?php echo $post_excerpt, '...'; ?>
-                            <a href="<?php echo the_permalink(); ?>">Read More</a>
+                            <a href="<?php echo $post_link; ?>">Read More</a>
                         </p>
                     </div>
                     <?php
