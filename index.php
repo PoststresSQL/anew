@@ -68,6 +68,9 @@
                     What People Are Saying
                 </h2>
                 <!-- @TODO Get Testimonials up -->
+                <?php 
+                    echo do_shortcode('[testimonials_cycle theme="default_style" width="100%" count="-1" order_by="date" order="ASC" show_title="1" use_excerpt="0" show_thumbs="0" show_date="1" show_other="0" hide_view_more="0" output_schema_markup="0" testimonials_per_slide="1" transition="scrollHorz" timer="5000" pause_on_hover="true" auto_height="container" show_pager_icons="1" prev_next="1" display_pagers_above="0" paused="0"]');
+                ?>
             </div>
         </section>
 
