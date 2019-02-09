@@ -10,10 +10,13 @@ header nav {
 header nav li a {
     color: #446b91;
     font-size: 18px;
-    font-weight: 600;
     letter-spacing: 0.1rem;
     padding: 0.7em 1.4em 0.4em 0 !important;
     text-transform: uppercase;
+}
+
+header nav .large-9 li a {
+    font-weight: 600;
 }
 
 header nav ul.align-right li a {
