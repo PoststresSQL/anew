@@ -68,9 +68,41 @@
                     What People Are Saying
                 </h2>
                 <!-- @TODO Get Testimonials up -->
-                <?php 
-                    echo do_shortcode('[testimonial_view id="2"]');
-                ?>
+                <div class="container">
+                    <input type="radio" name="nav" id="first" checked/>
+                    <input type="radio" name="nav" id="second" />
+                    <input type="radio" name="nav" id="third" />
+                    
+                    <div class="slider__buttons">
+                        <label for="first" class="first"></label>
+                        <label for="second"  class="second"></label>
+                        <label for="third" class="third"></label>
+                    </div>
+                    
+                    <div class="one slide">
+                        <blockquote>
+                            <span class="leftq quotes">&ldquo;</span>
+                            I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work
+                            <span class="rightq quotes">&bdquo; </span>
+                        </blockquote>
+                    </div>
+                    
+                    <div class="two slide">
+                        <blockquote>
+                            <span class="leftq quotes">&ldquo;</span> 
+                            I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work
+                            <span class="rightq quotes">&bdquo; </span>
+                        </blockquote>
+                    </div>
+                    
+                    <div class="three slide">
+                        <blockquote>
+                            <span class="quotes leftq"> &ldquo;</span>
+                            I didn’t really know what to expect when I signed up with an accountability coach, but I knew that I was lacking some serious motivationwhen it came to my personal goals. Anne-Marie took the time to understand how I tick, what motivates me, and where I was seeing successes in my life specifically at work
+                            <span class="rightq quotes">&bdquo; </span>
+                        </blockquote>
+                    </div>
+                    </div>
             </div>
         </section>
 
