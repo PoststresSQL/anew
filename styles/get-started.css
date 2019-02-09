@@ -1,0 +1,24 @@
+#started-page .background-orange h4,
+#started-page .background-orange h5 {
+    font-weight: 600;
+}
+
+#started-page .background-orange h4:nth-child(2) {
+    margin: 2rem 0;
+}
+
+#started-page .background-orange #get-started__list {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#started-page .background-orange  ul li {
+    position: relative;
+}
+
+#started-page .background-orange .far {
+    position: absolute;
+    top: 15px;
+    left: -24px;
+    transform: translate(-50%, -50%);
+}
