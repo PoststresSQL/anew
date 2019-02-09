@@ -3,8 +3,8 @@
     function anew_files() {
         // js loading
         wp_enqueue_script('jquery', get_template_directory_uri() . '/js/vendor/jquery.js');
-        wp_enqueue_script('foundation_scripts', get_template_directory_uri() . '/js/vendor/foundation.min.js');
-        wp_enqueue_script('what-input_scripts', get_template_directory_uri() . '/js/vendor/what-input.js');
+        // wp_enqueue_script('foundation_scripts', get_template_directory_uri() . '/js/vendor/foundation.min.js');
+        // wp_enqueue_script('what-input_scripts', get_template_directory_uri() . '/js/vendor/what-input.js');
 
         // stylesheet loading
         wp_enqueue_style('google_fonts', '//fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600,700,800');
