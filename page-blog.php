@@ -31,10 +31,12 @@
                             $post_id = get_the_ID();
                             $category_object = get_the_category($post_id);
                             $category_name = $category_object[0] -> name;
+                            $wpblog_fetrdimg = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
                             ?>
-                    <li class="cell large-6">
+                    <li class="cell large-6 medium-6 small-12">
                         <a href="<?php echo the_permalink(); ?> ">
-                            <?php the_post_thumbnail(); ?>
+                            <div class="post__image" style='background-image: url("<?php echo $wpblog_fetrdimg; ?>")'>
+                            </div>
                             <h5 class="post__category">
                                 <?php echo $category_name; ?>
                             </h5>

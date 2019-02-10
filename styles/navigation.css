@@ -31,3 +31,13 @@ header nav ul.align-right li a {
     padding: 0.7em 0.2em 0.4em 0.5em !important;
 }
 
+@media only screen and (max-width: 782px) {
+    header nav.grid-x .medium-8 {
+        width: 100%;
+    }
+
+    header nav.grid-x .show-for-medium {
+        display: none;
+    }
+}
+

@@ -28,6 +28,17 @@ p {
     margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 640px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.125rem !important;
+        line-height: 1.6;
+    }
+}
+
 .background-orange {
     background: rgb(224, 99, 81);
     color: rgb(255, 255, 255);
@@ -74,7 +85,7 @@ p {
 
 .page-title {
     color: rgb(224, 99, 81);
-    font-size: 55px;
+    font-size: 3.2rem;
     font-weight: 900;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -87,6 +98,10 @@ p {
 
 .post__image-container {
     background: rgb(35, 35, 35);
+}
+
+.small-12 {
+    margin-bottom: 1rem;
 }
 
 #featured-posts  {
@@ -164,123 +179,4 @@ select {
     -webkit-appearance: menulist;
     -moz-appearance: menulist;
     appearance: menulist;
-}
-
-/* 
-    TESTIMONIAL CSS SLIDER
-*/
-.container{
-  width: 80%;
-  min-height: 250px;
-  margin: 0 auto;
-  position: relative;
-  padding-bottom: 30px;
-  overflow: visible;
-}
-
-h6{
-  color:#928566; 
-  margin:0;
-}
-
-input[type="radio"] {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.container .slider__buttons {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.container label{
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    cursor: pointer;
-    display: inline-block;
-    height: 15px;
-    transition: border-color 0.3s linear;
-    width: 15px;
-}
-
-.container label:nth-child(2) {
-    margin: 0 10px;
-}
-
-blockquote{
-  margin:0;
-  padding:30px;
-  position:relative;
-  transition: background-color 0.6s linear;
-}
-
-#second:checked ~ .two blockquote {
-  background-color: transparent;
-}
-
-.two blockquote:after{
-  border: solid transparent; 
-  border-top-color: rgb(224, 99, 81);
-  border-left-color:rgb(224, 99, 81);
-  border-width: 10px;
-}
-#third:checked ~ .three blockquote{
-  background-color: transparent;
-}
-.three blockquote:after{
-  border: solid transparent; 
-  border-top-color: rgb(224, 99, 81);
-  border-left-color: rgb(224, 99, 81);
-  border-width: 10px;
-}
-.quotes{
-  position:absolute;
-  color:rgba(224, 99, 81,0.5);
-  font-size:5em;
-}
-.leftq{
-  top:-25px;
-  left:-5px;
-}
-.rightq{
-  bottom:-10px;
-  right:5px;
-}
-
-.slide{
-  position:absolute;
-  left:-100%;
-  opacity:0;
-  transition: all 0.6s ease-in;
-}
-
-#first:checked ~ .slider__buttons label.first {
-  background:rgb(224, 99, 81);
-}
-#second:checked ~ .slider__buttons label.second {
-  background:rgb(224, 99, 81);
-}
-#third:checked ~ .slider__buttons label.third {
-  background: rgb(224, 99, 81);
-}
-
-#first:checked ~ div.one {
-  left:0;
-  opacity:1;
-}
-#second:checked ~ div.two {
-  left:0;
-  opacity:1;
-}
-#third:checked ~ div.three {
-  left:0;
-  opacity:1;
 }

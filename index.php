@@ -102,7 +102,7 @@
                             <span class="rightq quotes">&bdquo; </span>
                         </blockquote>
                     </div>
-                    </div>
+                </div>
             </div>
         </section>
 
@@ -121,7 +121,7 @@
                             $post_excerpt = substr($featured_post -> post_content, 0, 204);
                             $post_link = get_permalink($featured_post -> ID);
                     ?>
-                    <div class="cell large-6">
+                    <div class="cell large-6 medium-6 small-12">
                         <h4>
                             <?php echo $featured_post -> post_title; ?>
                         </h4>

@@ -6,13 +6,13 @@
     <body>
         <header>
             <div class="grid-container grid-x">
-                <div class="cell large-2">
+                <div class="cell large-2 medium-3 small-4">
                     <a href="/">
                         <img src="<?php echo get_template_directory_uri() . '/../../uploads/2019/01/anew-logo-final.png' ?>" class="nav-logo" />
                     </a>
                 </div>
-                <nav class="cell large-10 grid-x">
-                    <ul class="large-9 menu medium-horizontal">
+                <nav class="cell large-10 medium-9 small-8 grid-x">
+                    <ul class="large-9 medium-8 small-12 menu medium-horizontal">
                         <li>
                             <a href="/get-started">
                                 Get Started
@@ -34,7 +34,7 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="large-3 menu medium-horizontal align-right">
+                    <ul class="large-3 medium-4 show-for-medium menu medium-horizontal align-right">
                         <li>
                             <a href="#" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-facebook-square fa-lg"></i>

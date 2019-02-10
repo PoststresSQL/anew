@@ -21,7 +21,7 @@
             </h4>
             <div class="grid-container grid-x grid-padding-x"
                  id="get-started__list">
-                <ul class="no-bullet cell large-6">
+                <ul class="no-bullet cell large-6 medium-6 small-12">
                     <li>
                         <h5>
                             <i class="far fa-compass fa-lg"></i>
@@ -41,7 +41,7 @@
                         </h5>
                     </li>
                 </ul>
-                <ul class="no-bullet cell large-6">
+                <ul class="no-bullet cell large-6 medium-6 small-12">
                     <li>
                         <h5>
                             <i class="far fa-star fa-lg"></i>
@@ -90,7 +90,7 @@
                         $post_excerpt = substr($featured_post -> post_content, 0, 204);
                         $post_link = get_permalink($featured_post -> ID);
                 ?>
-                <div class="cell large-6">
+                <div class="cell large-6 medium-6 small-12">
                     <h4>
                         <?php echo $featured_post -> post_title; ?>
                     </h4>

@@ -30,7 +30,7 @@
 
     // allow featured images for posts
     add_theme_support( 'post-thumbnails' );
-    set_post_thumbnail_size( 'auto', 450);
+    set_post_thumbnail_size( 'auto', '400px');
 
     // CUSTOM WPFORM FORM
     if ( class_exists( 'WPForms_Template', false ) ) :
