@@ -113,25 +113,30 @@
                 </h2>
                 <div class="grid-x grid-padding-x">
                     <?php
+                        // THE WORDPRESS LOOP START
+                        if ( have_posts() ) : while ( have_posts() ) : the_post();
+
                         $args = array(
                             'numberposts' => 2
                         );
-                        $featured_posts = get_posts($args);
-                        foreach ($featured_posts as $featured_post) {
-                            $post_excerpt = substr($featured_post -> post_content, 0, 204);
-                            $post_link = get_permalink($featured_post -> ID);
+                        $featured_posts = wp_get_recent_posts($args);
                     ?>
                     <div class="cell large-6 medium-6 small-12">
                         <h4>
-                            <?php echo $featured_post -> post_title; ?>
+                            <?php echo the_title(); ?>
                         </h4>
                         <p>
-                            <?php echo $post_excerpt, '...'; ?>
-                            <a href="<?php echo $post_link; ?>">Read More</a>
+                            <?php echo get_the_excerpt($featured_post -> ID) ?>
+                            <a href="<?php echo get_permalink($featured_post -> ID); ?>">Read More</a>
                         </p>
                     </div>
                     <?php
-                        }
+                        endwhile; else :
+                    ?>
+                        <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                    <?php
+                        endif;
+                        // THE WORDPRESS LOOP ENDS
                     ?>
                 </div>
             </div>
