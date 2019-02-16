@@ -8,8 +8,9 @@ footer hr {
     border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-footer ul.menu, footer ul li {
-    display: inline-block;
+footer ul.grid-x {
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 footer ul li a {
