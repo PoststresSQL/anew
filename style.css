@@ -105,6 +105,8 @@ p {
 }
 
 #featured-posts  {
+    background-image: url('http://anew.local/wp-content/uploads/2019/02/Backround.png');
+    background-size: contain;
     color: rgb(68, 107, 145);
 }
 

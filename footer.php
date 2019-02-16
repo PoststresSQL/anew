@@ -10,12 +10,12 @@
                 <div>
                     <ul class="menu">
                         <li>
-                            <a href="#">
+                            <a href="/privacy-policy/">
                                 Privacy Policy
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/terms-&-conditions/">
                                 Terms &amp; Conditions
                             </a>
                         </li>
