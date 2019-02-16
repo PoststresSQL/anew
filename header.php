@@ -36,22 +36,22 @@
                     </ul>
                     <ul class="large-3 medium-4 show-for-medium menu medium-horizontal align-right">
                         <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/Anew-Accountability-and-Lifestyle-Coaching-326641551236587" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-facebook-square fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/company/anew-llc/" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/yourstoryanew/" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-instagram fa-lg"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/AnewLlc" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-twitter-square fa-lg"></i>
                             </a>
                         </li>
