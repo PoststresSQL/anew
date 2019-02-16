@@ -36,14 +36,15 @@
                id="categories-list">
             <div class="categories-list__container">
                 <h5>Categories:</h5>
-                <ul class="no-bullet">
+                <?php echo get_the_category_list($post_id); ?>
+                <!-- <ul class="no-bullet">
                     <li>Career</li>
                     <li>Fitness</li>
                     <li>Life</li>
                     <li>Mindset</li>
                     <li>Nutrition & Diet</li>
                     <li>Recovery</li>
-                </ul>
+                </ul> -->
             </div>
         </aside>
     </div>
