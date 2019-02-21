@@ -6,9 +6,15 @@
         <section id="banner-container">
             <div class="grid-container">
                 <h1 id="banner-title">
-                    We are here<br>
-                    to encourage<br> 
-                    &amp; challenge people
+                    <span class="title-line line-one">
+                        We are here
+                    </span><br/>
+                    <span class="title-line line-two">
+                        to encourage
+                    </span><br />
+                    <span class="title-line line-three">
+                        &amp; challenge people
+                    </span>
                 </h1>
                 <h3 id="banner-subtitle">
                     to live their best, most consistent, most sustainable life yet

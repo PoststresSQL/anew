@@ -9,11 +9,58 @@
 
 #banner-title {
     color: rgb(224, 99, 81);
+    display: inline-block;
     font-size: 5rem;
     font-weight: 800;
     letter-spacing: 0.25rem;
     line-height: 0.9;
+    position: relative;
     text-transform: uppercase;
+}
+
+#banner-title:after {
+  animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1.4s;
+  background: rgb(68, 107, 145);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+#banner-title .title-line {
+  animation: appear-text 0.00001s linear forwards;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@keyframes rev-block {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  
+  100% {
+    left: 100%;
+    width: 0;
+  }
+}
+
+@keyframes appear-text {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
 }
 
 #banner-subtitle {
